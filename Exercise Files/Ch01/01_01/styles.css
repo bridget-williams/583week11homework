@@ -15,6 +15,7 @@ a#myAdLink{
     height: 200px;
     position: relative;
     overflow: hidden;
+    opacity: 0;
 }
 
 #myAd .myAdImage{
@@ -27,6 +28,7 @@ a#myAdLink{
     height:inherit;
     top:0;
     left:0;
+    background-repeat: repeat-x;
 }
 
 #myAd #myAd_photo{
@@ -79,5 +81,10 @@ a#myAdLink{
     height: 62px;
     background-position: -2px -233px;
     top: 110px;
-    left:306px;
+    left:360px;
+}
+
+#myAd #myAd_text1 span {
+    display: inline-block;
+    position: relative;
 }
